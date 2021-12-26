@@ -5,7 +5,7 @@ import { GlobalContext } from "../context/GlobalState";
 
 
 export const ResultCard = ({ movie }) => {
-  const { addMovieToWatchlist, addMovieToWatched, watchlist, watched, infoMovie } =
+  const { addMovieToWatchlist, addMovieToWatched, watchlist, watched} =
     useContext(GlobalContext);
 
   let storedMovie = watchlist.find((o) => o.id === movie.id);
@@ -60,12 +60,6 @@ export const ResultCard = ({ movie }) => {
           >
             Add to Watched
           </button>
-          <button
-              className="ctrl-btn"
-              onClick={() =>infoMovie(movie)}
-            >
-              <i className="fa-fw fas fa-info-circle"></i>
-            </button>
         </div>
       </div>
     </div>
