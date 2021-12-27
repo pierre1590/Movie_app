@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a13ddda9-8f34-4d11-9ce6-39753813ca34/deploy-status)](https://app.netlify.com/sites/loving-turing-0432fe/deploys)
 ![tag react](https://img.shields.io/static/v1?label=REACT.JS&message=react.js&logo=react&logoColor=blue&style=plastic&logoWidth=20)
-<img src="" alt="Preview-Success" width="800px" height="420px">
+<img src="https://i.ibb.co/HG4SpvL/movies.jpg" alt="Preview-Success" width="800px" height="420px">
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
