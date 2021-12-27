@@ -30,7 +30,6 @@ export const Rating = (props) => {
           {[1,2,3,4,5,6,7,8,9,10].map((number) => {
             // For every star, we need to check if we render a full or half one
             const FinalStar = chooseStar(number);
-    
             return <FinalStar onClick={() => setRating(number)} />;
           })}
           {/*style to rating number and if If the number is greater than three digits use the method 1.000  */}

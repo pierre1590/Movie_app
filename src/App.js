@@ -6,6 +6,7 @@ import { Watched } from "./components/Watched";
 import { Add } from "./components/Add";
 import  NotFound  from "./pages/NotFound";
 import { GlobalProvider } from "./context/GlobalState";
+import {Details} from './pages/Details';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/watched" element={<Watched />} />
           <Route path="/add" element={<Add />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/movie/:movieId" element={<Details />} />
         </Routes>
       </Router>
     </GlobalProvider>

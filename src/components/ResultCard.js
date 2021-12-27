@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import Moment from "react-moment";
 import { Rating } from "./Rating";
 import { GlobalContext } from "../context/GlobalState";
-
+import {Link} from 'react-router-dom';
 
 export const ResultCard = ({ movie }) => {
-  const { addMovieToWatchlist, addMovieToWatched, watchlist, watched} =
+  const { addMovieToWatchlist, addMovieToWatched, watchlist, watched } =
     useContext(GlobalContext);
 
   let storedMovie = watchlist.find((o) => o.id === movie.id);
@@ -60,6 +60,14 @@ export const ResultCard = ({ movie }) => {
           >
             Add to Watched
           </button>
+          {/*Button to open details view*/}
+          <Link to={`/movie/${movie.id}`}>
+          <button
+            className="btn"
+          >
+            Details
+          </button>
+          </Link>
         </div>
       </div>
     </div>

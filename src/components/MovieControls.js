@@ -8,6 +8,7 @@ export const MovieControls = ({ type, movie }) => {
     addMovieToWatched,
     moveToWatchlist,
     removeFromWatched,
+    getMovieOverview
   } = useContext(GlobalContext);
 
   return (
@@ -24,6 +25,7 @@ export const MovieControls = ({ type, movie }) => {
           >
             <i className="fa-fw fa fa-times"></i>
           </button>
+         
         </>
       )}
 
@@ -39,8 +41,6 @@ export const MovieControls = ({ type, movie }) => {
           >
             <i className="fa-fw fa fa-times"></i>
           </button>
-            
-          
         </>
       )}
     </div>

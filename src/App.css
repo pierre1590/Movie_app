@@ -153,6 +153,7 @@ header .nav-links li:last-child {
 .result-card {
   display: flex;
   margin-bottom: 20px;
+ 
 }
 
 .result-card .poster-wrapper img,
@@ -164,12 +165,15 @@ header .nav-links li:last-child {
   margin-right: 15px;
   display: block;
   color: transparent;
+  border-radius: 5%;
+ 
 }
 
 .result-card .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .result-card .info .title {
@@ -241,6 +245,7 @@ header .nav-links li:last-child {
 .movie-card img {
   width: 100%;
   display: block;
+  border-radius: 5%;
 }
 
 .movie-card .overlay {
