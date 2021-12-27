@@ -67,13 +67,6 @@ export const Details = () => {
                     </div>
                     <p>{query.overview}</p>
                 </div>
-       {/*  <div className="details" style={{margin:'5% 45%', minWidth:'10%',fontSize:'20px'}}>
-            <h1>{query.title}</h1>
-            <img src={`https://image.tmdb.org/t/p/w200${query.poster_path}`} alt={query.title}/><br/>
-            <Moment format="YYYY" style={{fontSize:22,textAlign:'center'}}>{query.release_date }</Moment>
-            <p>{query.overview}</p>
-           
-        </div> */}
         </div>
         )}
     </>
