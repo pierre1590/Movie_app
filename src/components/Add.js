@@ -11,7 +11,7 @@ export const Add = () => {
     e.preventDefault();
     setQuery(e.target.value);
     try {
-      const res = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=1&include_adult=false&query=` + e.target.value);
+      const res = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&language=it-IT&page=1&include_adult=false&query=` + e.target.value);
       setResults(res.data.results);
     } catch (err) {
       console.warn(err);
