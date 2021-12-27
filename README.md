@@ -1,15 +1,46 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a13ddda9-8f34-4d11-9ce6-39753813ca34/deploy-status)](https://app.netlify.com/sites/loving-turing-0432fe/deploys)
+![tag react](https://img.shields.io/static/v1?label=REACT.JS&message=react.js&logo=react&logoColor=blue&style=plastic&logoWidth=20)
+<img src="" alt="Preview-Success" width="800px" height="420px">
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About the project</a>
+    </li>
+    <li><a href=#api>API</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href=#installation>Installation</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About the project
+The project allows you to search for a movie and save it using localStorage among the films to watch or among those already seen.
+
+ See it in action :  https://loving-turing-0432fe.netlify.app
+
+## API
+The API used is the The Movie DB.
+
+API: https://www.themoviedb.org/documentation/api
+
+## Built with
+To develop the app I used:
+- React.js
+- React Router
+- React Hooks
+- Axios
+- React icons
+- dotenv
+- Moment.js
+- Context API
+- localStorage
 
 
 
-
-
-
-
-
-
-
-
+# Installation
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
