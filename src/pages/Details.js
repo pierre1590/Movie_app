@@ -7,7 +7,7 @@ export const Details = () => {
 
   //retrieve the id movie from the url
   const { movieId } = useParams();
-  console.log(movieId);
+  
 
   
 
@@ -28,7 +28,7 @@ export const Details = () => {
             }
         };
         FetchMovie();
-    }, []);
+    }, [movieId]);
 
 
 
