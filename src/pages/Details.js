@@ -42,7 +42,7 @@ export const Details = () => {
       </Link>
       {/*Show the title, img and overview if available */}
         {query && (
-            <div className="result-card" style={{textAlign: 'center',margin:'5% 40%',fontSize:'25px'}}>
+            <div className="card" style={{textAlign: 'center',margin:'5% 40%',fontSize:'25px'}}>
                 <div className="poster-wrapper">
                     {query.poster_path ? (
                         <img
@@ -60,7 +60,7 @@ export const Details = () => {
                         <h4 className="release-date">
                             <Moment format="YYYY">{query.release_date}</Moment>
                         </h4>
-                        <Rating
+                        <Rating 
                             rating={query.vote_average}
                             rating_number={query.vote_count}
                         />

@@ -19,10 +19,12 @@ body {
   margin-left: auto;
 }
 
-.error{
+.error {
   color: red;
-  margin: 0 43% ;
+  margin: 0 43%;
 }
+
+
 
 @media (min-width: 768px) {
   .container {
@@ -153,7 +155,6 @@ header .nav-links li:last-child {
 .result-card {
   display: flex;
   margin-bottom: 20px;
- 
 }
 
 .result-card .poster-wrapper img,
@@ -166,14 +167,12 @@ header .nav-links li:last-child {
   display: block;
   color: transparent;
   border-radius: 5%;
- 
 }
 
 .result-card .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .result-card .info .title {
@@ -299,4 +298,33 @@ header .nav-links li:last-child {
   color: #c4c4c4;
   font-size: 3rem;
   text-align: center;
+}
+
+/* Adapt header to iphone 5 */
+@media only screen and (max-width: 320px) {
+  header .brand a {
+    font-size: 1.25rem;
+  }
+
+  header .nav-links li {
+    margin-right: 15px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+  }
+.overview{
+  font-size:0.8rem;
+  color: #01a; 
+}
+
+  
+
+  /* Margin between botton controls */
+ .controls .btn {
+    margin-bottom: 5px;
+  }
 }
